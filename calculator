@@ -1,0 +1,18 @@
+print ('Enter any two number for simple calculation')
+print ('Enter 1st number')
+num1 = int(input())
+print ('Enter 2nd number')
+num2 = int(input())
+print ('Select any operator from following for that operation','\n')
+print ('for addition press "+"','\n','for substraction press "-"','\n','for multiplication press "*"','\n',for division press "/"')
+opp = input()
+if opp == '+':
+   print ('addition of given number is =', num1+num2)
+elif opp =='-':
+   print ('substraction of given number is ', num1-num2)
+elif opp == '*' :
+    print ('multiplicatoin of given number is ', num1*num2)
+elif opp == '/' :
+    print ('division of given number is =', num1/num2)
+else :
+    print('operator unavailable or wrong operator')
